@@ -256,7 +256,9 @@ main > section {
 /* medium size device */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams {
+    .teams,
+    .features
+    {
         flex-direction: column;
     }
 
@@ -268,5 +270,10 @@ main > section {
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
         justify-items: center;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
